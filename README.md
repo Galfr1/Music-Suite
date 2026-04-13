@@ -34,9 +34,9 @@ Install required packages with:
   pip install yt-dlp torch torchaudio mutagen pyinstaller
   ```
 ## 🚀 Running the App (Development)
-
+```bash
 python3 Music_Suite.py
-
+```
 ## 🏗️ Building the App
 
 This project uses PyInstaller to create a standalone app.
