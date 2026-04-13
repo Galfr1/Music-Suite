@@ -21,7 +21,8 @@ Built with a modern Tkinter UI and powered by Python audio processing tools.
   ```bash
   brew install ffmpeg
 - Ubuntu:
-sudo apt install ffmpeg
+  ```bash
+  sudo apt install ffmpeg
 - Windows:
 Download from https://ffmpeg.org and add to PATH
 
@@ -29,8 +30,9 @@ Download from https://ffmpeg.org and add to PATH
 
 Install required packages with:
 
-pip install yt-dlp torch torchaudio mutagen pyinstaller
-
+  ```bash
+  pip install yt-dlp torch torchaudio mutagen pyinstaller
+  ```
 ## 🚀 Running the App (Development)
 
 python3 Music_Suite.py
@@ -40,8 +42,9 @@ python3 Music_Suite.py
 This project uses PyInstaller to create a standalone app.
 Build Command:
 
-./build.sh
-
+  ```bash
+  ./build.sh
+  ```
 ### What it does?
 
 Cleans previous builds (build/, dist/)
